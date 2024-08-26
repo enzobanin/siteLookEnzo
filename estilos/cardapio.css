@@ -1,0 +1,20 @@
+#article {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+  margin-top: 100px;
+}
+.pratos {
+  width: 350px;
+  height: 300px;
+  border: 2px solid black;
+}
+.legenda {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+.titulo {
+  font-size: 25px;
+}

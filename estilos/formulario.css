@@ -1,0 +1,63 @@
+h1 {
+  font-family: sans-serif;
+  color: whitesmoke;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+  margin: 0 25% ;
+  background-color: #00ced1;
+  text-align: center;
+  color: whitesmoke;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative; 
+  top: 0px;
+  margin-right: 30%;
+}
+input,
+select {
+  display: block;
+  float: right;
+  width: 40%;
+}
+input,
+select,
+button {
+  border-radius: 5px;
+}
+label {
+  align-items: start;
+  width: 60%;
+  display: block;
+  float: left;
+  font-size: 16px ;
+}
+button {
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3px;
+  font-size: 15px;
+  width: 40%;
+}
+#enviar{
+  float: left;
+}
+#limpar{
+  float: right;
+}
+#dados{
+  margin-top: 5px;
+  clear: both;  
+
+}
+button:hover {
+  color: #0000ff;
+  background-color: #00bfff;
+}
+.form {
+  width: auto;
+  height: 700px;
+} 
